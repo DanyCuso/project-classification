@@ -80,17 +80,17 @@ Once converted, the object code can be run unassisted at any time. This proces
 **Assembler:** Assemblers are a third type of translator. The purpose of an assembler is to translate 
 assembly language into machine code. Whereas compilers and interpreters generate many machine code 
 instructions for each high-level instruction, assemblers create one machine code instruction for each 
-assembly instruction. ```
+assembly instruction.
 
 ### Platinum
 
 **What is the difference between an interpreter and a compiler?**
 
 *compilers*
-1. Compiled programs run quickly, since they have already been translated.
+ Compiled programs run quickly, since they have already been translated.
 
 *interpreters*
-2. Instructions are executed as soon as they are translated.
+ Instructions are executed as soon as they are translated.
 
 **What is assembly language?**
 
@@ -99,4 +99,15 @@ a computer’s hardware. Unlike machine language, which consists of binary and h
 languages are designed to be readable by humans.
 
 **A developer is writing a program.**
+
+1. **The program is written in a high-level language and it is then translated into machine code. Describe two differences between high-level language and machine code?**
+In machine code instructions are in binary code. High-level code is designed to be read by human programmers. Machine code is to be read/executed by the computer High level code can be portable/translated for different machines Machine code is specific to a particular machine.*
+
+2. **One type of translator is an interpreter.**
+
+1. *Describe how an interpreter translates high-level language programs into machine code?*
+An interpreter translates code into machine code, instruction by instruction - the CPU executes each instruction before the interpreter moves on to translate the next instruction. Interpreted code will show an error as soon as it hits a problem, so it is easier to debug than compiled code.
+
+2. *State the name of a different type of translator that can be used to translate high-level code into machine code?*
+PHP, Ruby, Python, and JavaScript
 
