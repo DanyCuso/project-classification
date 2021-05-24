@@ -32,36 +32,52 @@ _Python, Visual Basic, Delphi, Perl, PHP, ECMAScript, Ruby, C#, Java_
 **Describe three differences between low-level language and high-level languages?**
 
 ```sh
+
 High-Level
+
 ```
 ```sh
+
 1. Instead of dealing with registers, memory addresses, and call stacks, high-level languages ​​deal with
 variables, arrays, objects, complex arithmetic or Boolean expressions, subroutines and functions, loops,
 threads, locks, and other abstract concepts in computing
+
 ```
 ```sh
+
 2. The abstraction penalty is the cost paid by high-level programming techniques for not being able to optimize
 performance or use certain hardware because they do not take advantage of certain low-level architectural
 resources.
+
 ```
 ```sh
+
 3. high-level languages ​​have few, if any, language elements that are translated directly into the native
 opcodes of a machine.
+
 ```
 ```sh
+
 Low-Level
+
 ```
 ```sh
+
 1. Low-level languages are simple, but are considered difficult to use, due to the numerous technical details
 which must be remembered.
+
 ```
 ```sh
+
 2. Low-level languages can be converted to machine code without using a compiler or interpreter,
 and the resulting code runs directly on the processor.
+
 ```
 ```sh
+
 3. pointers effectively take the place of general purpose registers in low-level languages such as assembly
 language or machine code, but may be in available memory.
+
 ```
 
 **What does a translator do?**
@@ -86,11 +102,13 @@ assembly instruction.
 
 **What is the difference between an interpreter and a compiler?**
 
-*compilers*
- Compiled programs run quickly, since they have already been translated.
+*compilers:*
+ 
+Compiled programs run quickly, since they have already been translated.
 
-*interpreters*
- Instructions are executed as soon as they are translated.
+*interpreters:*
+ 
+Instructions are executed as soon as they are translated.
 
 **What is assembly language?**
 
@@ -101,13 +119,16 @@ languages are designed to be readable by humans.
 **A developer is writing a program.**
 
 1. **The program is written in a high-level language and it is then translated into machine code. Describe two differences between high-level language and machine code?**
+
 In machine code instructions are in binary code. High-level code is designed to be read by human programmers. Machine code is to be read/executed by the computer High level code can be portable/translated for different machines Machine code is specific to a particular machine.*
 
 2. **One type of translator is an interpreter.**
 
 1. *Describe how an interpreter translates high-level language programs into machine code?*
+
 An interpreter translates code into machine code, instruction by instruction - the CPU executes each instruction before the interpreter moves on to translate the next instruction. Interpreted code will show an error as soon as it hits a problem, so it is easier to debug than compiled code.
 
 2. *State the name of a different type of translator that can be used to translate high-level code into machine code?*
+
 PHP, Ruby, Python, and JavaScript
 
