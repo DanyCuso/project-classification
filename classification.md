@@ -22,7 +22,7 @@ because binary code is the only language that computer hardware can understand.
 **Give an example of a high-level language?**
 
 ```sh
-**High-level**
+High-level
 ```
 ```sh
 _Python, Visual Basic, Delphi, Perl, PHP, ECMAScript, Ruby, C#, Java_
@@ -72,16 +72,15 @@ It discovers and identifies the error during translation.
 
 **Identify two types of translators that can turn high-level languages into machine code?**
 
-```sh
+
 **Compilers:** A compiler takes the source code as a whole and translates it into machine code all in one go.
 Once converted, the object code can be run unassisted at any time. This process is called compilation.
-```
-````sh
-**Assembler:** Assemblers are a third type of translator. The purpose of an assembler is to translate assembly
-language into machine code.
-Whereas compilers and interpreters generate many machine code instructions for each high-level instruction,
-assemblers create one machine code instruction for each assembly instruction.
-```
+
+
+**Assembler:** Assemblers are a third type of translator. The purpose of an assembler is to translate 
+assembly language into machine code. Whereas compilers and interpreters generate many machine code 
+instructions for each high-level instruction, assemblers create one machine code instruction for each 
+assembly instruction. ```
 
 ### Platinum
 
