@@ -1,6 +1,6 @@
-#Daniel Valdés Artiles 
+# Daniel Valdés Artiles 
 
-##Diferences among if-else vs switch 
+## Diferences among if-else vs switch 
 
 **IF-ELSE**
 
@@ -16,7 +16,7 @@ This command takes a statement and evaluates its value predisposed by the condit
 from this it chooses one of multiple branches of code to proceed with the execution of the same
 ```
 
-##Do-while vs while vs for 
+## Do-while vs while vs for 
 
 **DO-WHILË**
 
